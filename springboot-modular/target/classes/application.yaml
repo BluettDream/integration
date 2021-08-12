@@ -2,6 +2,11 @@ server:
   port: 8081
 
 spring:
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 50MB
+
   datasource:
     url: jdbc:mysql://localhost:3306/integration?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai&useSSL=true
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -10,8 +15,23 @@ spring:
     type: com.alibaba.druid.pool.DruidDataSource
 
     druid:
+      default-auto-commit: true
+      aop-patterns: org.blue.*
+      filters: stat,wall,log4j2
+      stat-view-servlet:
+        enabled: true
+        login-username: blue
+        login-password: Tmh625864
+        reset-enable: true
       web-stat-filter:
         enabled: true
+        url-pattern: /*
+        exclusions: '*.js,*.gif,*.jpg,*.css,*.ico,/druid/*'
+      filter:
+        stat:
+          log-slow-sql: true
+          slow-sql-millis: 1000
+          enabled: true
 
 
 mybatis-plus:
@@ -20,3 +40,4 @@ mybatis-plus:
     banner: false
   configuration:
     map-underscore-to-camel-case: true
+    call-setters-on-nulls: true

@@ -12,7 +12,7 @@ const routes = [
     children:[
       {
         path: '/account',
-        name: '用户',
+        name: '查询用户',
         component: Account
       },
       {

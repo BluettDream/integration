@@ -2,10 +2,9 @@ package org.blue.springbootmodular.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import org.apache.ibatis.annotations.Mapper;
 import org.blue.springbootmodular.entity.Account;
-
-import java.util.List;
 
 /**
  * @Entity org.blue.springbootmodular.entity.Account
@@ -13,7 +12,8 @@ import java.util.List;
 @Mapper
 public interface AccountMapper extends BaseMapper<Account> {
 
-    List<Account> selectPage(IPage<Account> page);
+    IPage<Account> selectPageVo(Page<?> page);
+
 
 }
 

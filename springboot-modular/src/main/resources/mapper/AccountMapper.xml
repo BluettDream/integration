@@ -11,7 +11,7 @@
             <result property="accountAge" column="account_age" jdbcType="INTEGER"/>
             <result property="accountAddress" column="account_address" jdbcType="VARCHAR"/>
     </resultMap>
-    <select id="selectPage" resultType="org.blue.springbootmodular.entity.Account">
+    <select id="selectPageVo" resultType="account">
         SELECT * FROM integration.account
     </select>
 </mapper>

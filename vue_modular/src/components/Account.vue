@@ -2,18 +2,17 @@
   <div>
     <el-table
       :data="tableData"
-      :default-sort="{ prop: 'age', order: 'descending' }"
       border
     >
-      <el-table-column prop="name" label="姓名" width="100"></el-table-column>
+      <el-table-column prop="accountName" label="姓名" width="100"></el-table-column>
       <el-table-column
-        prop="age"
+        prop="accountAge"
         label="年龄"
         width="80"
         sortable
       ></el-table-column>
-      <el-table-column prop="sex" label="性别" width="80"></el-table-column>
-      <el-table-column prop="address" label="地址" width="880"></el-table-column>
+      <el-table-column prop="accountSex" label="性别" width="80"></el-table-column>
+      <el-table-column prop="accountAddress" label="地址" width="880"></el-table-column>
       <el-table-column fixed="right" label="操作" width="220">
         <template #default="scope">
           <el-button
@@ -29,8 +28,8 @@
     <el-pagination
         background
         layout="prev, pager, next"
-        :page-size="5"
-        :total="100"
+        :page-size="pageSize"
+        :total="total"
         @current-change="page">
     </el-pagination>
   </div>
@@ -44,26 +43,28 @@ export default {
       console.log(index, row);
     },
     page(currentPage){
-        console.log(currentPage)
+      this.axios.get('http://localhost:8081/accountPage/'+currentPage+'/5').then((resp) => {
+        this.tableData = resp.data.records;
+        this.total = resp.data.total;
+        this.pageSize = resp.data.size;
+      })
     },
     handleDelete(index, row) {
       console.log(index, row);
     }
   },
   created(){
-    this.$axios.get('http://localhost:8081/account/1/1').then(resp => {
-      console.log(resp)
+    this.axios.get('http://localhost:8081/accountPage/1/5').then((resp) => {
+      this.tableData = resp.data.records;
+      this.total = resp.data.total;
+      this.pageSize = resp.data.size;
     })
   },
   data() {
-    const item = {
-      name: "王小虎",
-      sex: "男",
-      age: 20,
-      address: "上海市",
-    };
     return {
-      tableData: Array(5).fill(item),
+      pageSize: null,
+      total: null,
+      tableData: null
     };
   },
 };

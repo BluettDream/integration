@@ -16,7 +16,6 @@
       </el-header>
       <router-view/>
     </el-container>
-
   </el-container>
 </template>
 <script>
