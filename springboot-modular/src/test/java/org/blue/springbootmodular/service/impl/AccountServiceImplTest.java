@@ -7,8 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import java.util.List;
-
-import static org.junit.jupiter.api.Assertions.*;
+import java.util.UUID;
 
 /**
  * @author blue
@@ -26,5 +25,16 @@ class AccountServiceImplTest {
         for (Account account : accountList) {
             System.out.println(account);
         }
+    }
+
+    @Test
+    void testSave(){
+        Account account = new Account();
+        account.setAccountId(UUID.randomUUID().toString().replace("-","").toLowerCase());
+        account.setAccountName("王五");
+        account.setAccountAge(20);
+        account.setAccountSex("男");
+        account.setAccountAddress("上海市嘉定区");
+        accountService.save(account);
     }
 }

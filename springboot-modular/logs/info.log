@@ -1,0 +1,63 @@
+09:24:59.105 [main] [INFO ] o.b.s.SpringbootModularApplicationlogStarting(55) - Starting SpringbootModularApplication using Java 1.8.0_291 on WINDOWS-VIB0E7E with PID 10896 (D:\task\integration\springboot-modular\target\classes started by EDZ in D:\task\integration\springboot-modular)
+09:24:59.146 [main] [INFO ] o.b.s.SpringbootModularApplicationlogStartupProfileInfo(659) - No active profile set, falling back to default profiles: default
+09:25:02.197 [main] [INFO ] o.s.b.w.e.t.TomcatWebServerinitialize(108) - Tomcat initialized with port(s): 8081 (http)
+09:25:02.528 [main] [INFO ] o.s.b.w.s.c.ServletWebServerApplicationContextprepareWebApplicationContext(290) - Root WebApplicationContext: initialization completed in 3249 ms
+09:25:03.004 [main] [INFO ] c.a.d.s.b.a.DruidDataSourceAutoConfiguredataSource(56) - Init DruidDataSource
+09:25:03.334 [main] [INFO ] c.a.d.p.DruidDataSourceinit(990) - {dataSource-1} inited
+09:25:05.541 [main] [INFO ] o.s.b.w.e.t.TomcatWebServerstart(220) - Tomcat started on port(s): 8081 (http) with context path ''
+09:25:05.572 [main] [INFO ] o.b.s.SpringbootModularApplicationlogStarted(61) - Started SpringbootModularApplication in 7.719 seconds (JVM running for 24.395)
+09:30:18.910 [http-nio-8081-exec-1] [INFO ] o.s.w.s.DispatcherServletinitServletBean(525) - Initializing Servlet 'dispatcherServlet'
+09:30:18.913 [http-nio-8081-exec-1] [INFO ] o.s.w.s.DispatcherServletinitServletBean(547) - Completed initialization in 3 ms
+10:16:24.532 [main] [INFO ] o.b.s.SpringbootModularApplicationlogStarting(55) - Starting SpringbootModularApplication using Java 1.8.0_291 on WINDOWS-VIB0E7E with PID 9244 (D:\task\integration\springboot-modular\target\classes started by EDZ in D:\task\integration\springboot-modular)
+10:16:24.563 [main] [INFO ] o.b.s.SpringbootModularApplicationlogStartupProfileInfo(659) - No active profile set, falling back to default profiles: default
+10:16:27.242 [main] [INFO ] o.s.b.w.e.t.TomcatWebServerinitialize(108) - Tomcat initialized with port(s): 8081 (http)
+10:16:27.435 [main] [INFO ] o.s.b.w.s.c.ServletWebServerApplicationContextprepareWebApplicationContext(290) - Root WebApplicationContext: initialization completed in 2762 ms
+10:16:27.782 [main] [INFO ] c.a.d.s.b.a.DruidDataSourceAutoConfiguredataSource(56) - Init DruidDataSource
+10:16:28.057 [main] [INFO ] c.a.d.p.DruidDataSourceinit(990) - {dataSource-1} inited
+10:16:30.134 [main] [INFO ] o.s.b.w.e.t.TomcatWebServerstart(220) - Tomcat started on port(s): 8081 (http) with context path ''
+10:16:30.162 [main] [INFO ] o.b.s.SpringbootModularApplicationlogStarted(61) - Started SpringbootModularApplication in 6.582 seconds (JVM running for 17.923)
+10:17:25.981 [http-nio-8081-exec-6] [INFO ] o.s.w.s.DispatcherServletinitServletBean(525) - Initializing Servlet 'dispatcherServlet'
+10:17:25.991 [http-nio-8081-exec-6] [INFO ] o.s.w.s.DispatcherServletinitServletBean(547) - Completed initialization in 9 ms
+11:14:43.907 [main] [INFO ] o.b.s.SpringbootModularApplicationlogStarting(55) - Starting SpringbootModularApplication using Java 1.8.0_291 on WINDOWS-VIB0E7E with PID 14580 (D:\task\integration\springboot-modular\target\classes started by EDZ in D:\task\integration\springboot-modular)
+11:14:43.952 [main] [INFO ] o.b.s.SpringbootModularApplicationlogStartupProfileInfo(659) - No active profile set, falling back to default profiles: default
+11:14:46.777 [main] [INFO ] o.s.b.w.e.t.TomcatWebServerinitialize(108) - Tomcat initialized with port(s): 8081 (http)
+11:14:46.988 [main] [INFO ] o.s.b.w.s.c.ServletWebServerApplicationContextprepareWebApplicationContext(290) - Root WebApplicationContext: initialization completed in 2917 ms
+11:14:47.335 [main] [INFO ] c.a.d.s.b.a.DruidDataSourceAutoConfiguredataSource(56) - Init DruidDataSource
+11:14:47.645 [main] [INFO ] c.a.d.p.DruidDataSourceinit(990) - {dataSource-1} inited
+11:14:50.021 [main] [INFO ] o.s.b.w.e.t.TomcatWebServerstart(220) - Tomcat started on port(s): 8081 (http) with context path ''
+11:14:50.045 [main] [INFO ] o.b.s.SpringbootModularApplicationlogStarted(61) - Started SpringbootModularApplication in 7.206 seconds (JVM running for 18.856)
+11:15:06.169 [http-nio-8081-exec-4] [INFO ] o.s.w.s.DispatcherServletinitServletBean(525) - Initializing Servlet 'dispatcherServlet'
+11:15:06.170 [http-nio-8081-exec-4] [INFO ] o.s.w.s.DispatcherServletinitServletBean(547) - Completed initialization in 1 ms
+11:31:21.053 [main] [INFO ] o.s.b.t.c.SpringBootTestContextBootstrapperbuildDefaultMergedContextConfiguration(305) - Neither @ContextConfiguration nor @ContextHierarchy found for test class [org.blue.springbootmodular.service.impl.AccountServiceImplTest], using SpringBootContextLoader
+11:31:21.080 [main] [INFO ] o.s.t.c.s.AbstractContextLoadergenerateDefaultLocations(264) - Could not detect default resource locations for test class [org.blue.springbootmodular.service.impl.AccountServiceImplTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+11:31:21.082 [main] [INFO ] o.s.t.c.s.AnnotationConfigContextLoaderUtilsdetectDefaultConfigurationClasses(83) - Could not detect default configuration classes for test class [org.blue.springbootmodular.service.impl.AccountServiceImplTest]: AccountServiceImplTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+11:31:21.439 [main] [INFO ] o.s.b.t.c.SpringBootTestContextBootstrappergetOrFindConfigurationClasses(238) - Found @SpringBootConfiguration org.blue.springbootmodular.SpringbootModularApplication for test class org.blue.springbootmodular.service.impl.AccountServiceImplTest
+11:31:21.759 [main] [INFO ] o.s.b.t.c.SpringBootTestContextBootstrappergetDefaultTestExecutionListenerClassNames(245) - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+11:31:21.839 [main] [INFO ] o.s.b.t.c.SpringBootTestContextBootstrappergetTestExecutionListeners(174) - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@460ebd80, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6f3c660a, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@74f5ce22, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@25aca718, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@16fdec90, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1afdd473, org.springframework.test.context.transaction.TransactionalTestExecutionListener@40238dd0, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7776ab, org.springframework.test.context.event.EventPublishingTestExecutionListener@79179359, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@dbd8e44, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@51acdf2e, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@6a55299e, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2f1de2d6, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4eb386df, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@79517588]
+11:31:23.183 [main] [INFO ] o.b.s.s.i.AccountServiceImplTestlogStarting(55) - Starting AccountServiceImplTest using Java 1.8.0_291 on WINDOWS-VIB0E7E with PID 13164 (started by EDZ in D:\task\integration\springboot-modular)
+11:31:23.194 [main] [INFO ] o.b.s.s.i.AccountServiceImplTestlogStartupProfileInfo(659) - No active profile set, falling back to default profiles: default
+11:31:27.105 [main] [INFO ] c.a.d.s.b.a.DruidDataSourceAutoConfiguredataSource(56) - Init DruidDataSource
+11:31:28.306 [main] [INFO ] c.a.d.p.DruidDataSourceinit(990) - {dataSource-1} inited
+11:31:32.231 [main] [INFO ] o.b.s.s.i.AccountServiceImplTestlogStarted(61) - Started AccountServiceImplTest in 10.247 seconds (JVM running for 15.075)
+11:31:35.877 [SpringApplicationShutdownHook] [INFO ] c.a.d.p.DruidDataSourceclose(2043) - {dataSource-1} closing ...
+11:31:35.883 [SpringApplicationShutdownHook] [INFO ] c.a.d.p.DruidDataSourceclose(2116) - {dataSource-1} closed
+11:37:47.979 [main] [INFO ] o.b.s.SpringbootModularApplicationlogStarting(55) - Starting SpringbootModularApplication using Java 1.8.0_291 on WINDOWS-VIB0E7E with PID 12840 (D:\task\integration\springboot-modular\target\classes started by EDZ in D:\task\integration\springboot-modular)
+11:37:48.012 [main] [INFO ] o.b.s.SpringbootModularApplicationlogStartupProfileInfo(659) - No active profile set, falling back to default profiles: default
+11:37:50.778 [main] [INFO ] o.s.b.w.e.t.TomcatWebServerinitialize(108) - Tomcat initialized with port(s): 8081 (http)
+11:37:50.978 [main] [INFO ] o.s.b.w.s.c.ServletWebServerApplicationContextprepareWebApplicationContext(290) - Root WebApplicationContext: initialization completed in 2830 ms
+11:37:51.345 [main] [INFO ] c.a.d.s.b.a.DruidDataSourceAutoConfiguredataSource(56) - Init DruidDataSource
+11:37:51.681 [main] [INFO ] c.a.d.p.DruidDataSourceinit(990) - {dataSource-1} inited
+11:37:54.327 [main] [INFO ] o.s.b.w.e.t.TomcatWebServerstart(220) - Tomcat started on port(s): 8081 (http) with context path ''
+11:37:54.350 [main] [INFO ] o.b.s.SpringbootModularApplicationlogStarted(61) - Started SpringbootModularApplication in 7.353 seconds (JVM running for 20.722)
+11:38:20.399 [http-nio-8081-exec-3] [INFO ] o.s.w.s.DispatcherServletinitServletBean(525) - Initializing Servlet 'dispatcherServlet'
+11:38:20.405 [http-nio-8081-exec-3] [INFO ] o.s.w.s.DispatcherServletinitServletBean(547) - Completed initialization in 6 ms
+14:22:39.420 [main] [INFO ] o.b.s.SpringbootModularApplicationlogStarting(55) - Starting SpringbootModularApplication using Java 1.8.0_291 on WINDOWS-VIB0E7E with PID 13872 (D:\task\integration\springboot-modular\target\classes started by EDZ in D:\task\integration\springboot-modular)
+14:22:39.451 [main] [INFO ] o.b.s.SpringbootModularApplicationlogStartupProfileInfo(659) - No active profile set, falling back to default profiles: default
+14:22:42.067 [main] [INFO ] o.s.b.w.e.t.TomcatWebServerinitialize(108) - Tomcat initialized with port(s): 8081 (http)
+14:22:42.299 [main] [INFO ] o.s.b.w.s.c.ServletWebServerApplicationContextprepareWebApplicationContext(290) - Root WebApplicationContext: initialization completed in 2687 ms
+14:22:42.694 [main] [INFO ] c.a.d.s.b.a.DruidDataSourceAutoConfiguredataSource(56) - Init DruidDataSource
+14:22:42.999 [main] [INFO ] c.a.d.p.DruidDataSourceinit(990) - {dataSource-1} inited
+14:22:44.891 [main] [INFO ] o.s.b.w.e.t.TomcatWebServerstart(220) - Tomcat started on port(s): 8081 (http) with context path ''
+14:22:44.913 [main] [INFO ] o.b.s.SpringbootModularApplicationlogStarted(61) - Started SpringbootModularApplication in 6.417 seconds (JVM running for 16.449)
+14:22:57.794 [http-nio-8081-exec-3] [INFO ] o.s.w.s.DispatcherServletinitServletBean(525) - Initializing Servlet 'dispatcherServlet'
+14:22:57.798 [http-nio-8081-exec-3] [INFO ] o.s.w.s.DispatcherServletinitServletBean(547) - Completed initialization in 3 ms

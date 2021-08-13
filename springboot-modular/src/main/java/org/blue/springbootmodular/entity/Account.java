@@ -1,11 +1,11 @@
 package org.blue.springbootmodular.entity;
 
-import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
-import java.io.Serializable;
 import lombok.Data;
+
+import java.io.Serializable;
 
 /**
  * 
@@ -28,7 +28,7 @@ public class Account implements Serializable {
     /**
      * 账户性别
      */
-    private Object accountSex;
+    private String accountSex;
 
     /**
      * 账户年龄

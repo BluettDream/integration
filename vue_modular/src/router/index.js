@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
 import Account from '../components/Account.vue'
-import Bill from '../components/Bill.vue'
+import AddAccount from '../components/AddAccount.vue'
 
 const routes = [
   {
@@ -12,13 +12,13 @@ const routes = [
     children:[
       {
         path: '/account',
-        name: '查询用户',
+        name: '全部用户',
         component: Account
       },
       {
-        path: '/bill',
-        name: '账单',
-        component: Bill
+        path: '/addAccount',
+        name: '添加用户',
+        component: AddAccount
       },
       {
         path: '/about',

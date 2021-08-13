@@ -14,7 +14,6 @@ public interface AccountMapper extends BaseMapper<Account> {
 
     IPage<Account> selectPageVo(Page<?> page);
 
-
 }
 
 
